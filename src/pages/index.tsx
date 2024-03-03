@@ -1,7 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../.storybook/src/ui/styles/Home.module.css'
+import styles from '@styles/Home.module.css'
+import { Button } from '@mui/material'
 
 const Home: NextPage = () => {
   return (
@@ -12,11 +13,13 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+
+
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
-
+        <Button variant={"contained"}>Click</Button>
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.tsx</code>
@@ -61,7 +64,8 @@ const Home: NextPage = () => {
         >
           Powered by{' '}
           <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <img src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+
           </span>
         </a>
       </footer>
