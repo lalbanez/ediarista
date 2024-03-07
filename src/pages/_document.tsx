@@ -1,3 +1,4 @@
+{/* eslint-disable-next-line @next/next/no-css-tags */}
 import React from 'react'
 import Document, {Html, Head, Main, NextScript} from 'next/document'
 import createEmotionServer from "@emotion/server/create-instance";
@@ -18,7 +19,6 @@ export default class MyDocument extends Document {
                         rel="stylesheet"
                         href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
                     />
-                    {/* eslint-disable-next-line @next/next/no-css-tags */}
                     <link
                         href="/fonts/tw-icons/css/treinaweb-icons.css"
                         rel="stylesheet"

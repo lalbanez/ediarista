@@ -16,8 +16,8 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@patials/*": ["UI/partials/*"],
-      "@styles/*": ["UI/styles/*"]
+      "@patials/*": ["ui/partials/*"],
+      "@styles/*": ["ui/styles/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
